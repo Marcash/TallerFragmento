@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Frags.SecondFragment">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="42dp"
+        android:layout_height="wrap_content"
+        android:text="De"
+        tools:text="De:" />
+
+    <TextView
+        android:id="@+id/correoDe"
+        android:layout_width="241dp"
+        android:layout_height="wrap_content"
+        android:text="DE:"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Para:"
+        tools:text="Para:" />
+
+    <TextView
+        android:id="@+id/correoPara"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PARA:"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/correoTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Titulo"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/correoMensaje"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Correo"
+        android:textSize="16sp" />
+
+</LinearLayout>

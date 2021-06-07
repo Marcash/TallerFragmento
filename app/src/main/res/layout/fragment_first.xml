@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Frags.FirstFragment"
+
+    >
+
+    <TextView
+        android:id="@+id/Correo1"
+        android:layout_width="253dp"
+        android:layout_height="46dp"
+        android:text="Pedidos ya Te regala un nuevo cupon                   Tienes un cupon de $5000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.007" />
+
+    <TextView
+        android:id="@+id/Correo2"
+        android:layout_width="253dp"
+        android:layout_height="46dp"
+        android:text="Promociones en Pedidos ya                     LLevate un combo big mac por $500"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.174"
+        tools:text="Promociones en Pedidos ya                     LLevate un combo big mac por $500" />
+
+    <TextView
+        android:id="@+id/Correo3"
+        android:layout_width="254dp"
+        android:layout_height="54dp"
+        android:text="UberEats te regala un cupon de $10000                      Tienes un cupon de $10000 en compras de $20000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.355" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
