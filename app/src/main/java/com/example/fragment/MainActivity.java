@@ -5,8 +5,8 @@ import androidx.fragment.app.FragmentManager;
 
 import android.os.Bundle;
 
-import com.example.fragment.Frags.FirstFragment;
-import com.example.fragment.Frags.SecondFragment;
+import com.example.fragment.Fragmentos.FirstFragment;
+import com.example.fragment.Fragmentos.SecondFragment;
 
 public class MainActivity extends AppCompatActivity implements FirstFragment.DataListener {
 
@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity implements FirstFragment.Dat
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        //FirstFragment firstFragment = new FirstFragment();
+
         //FragmentManager manager = getSupportFragmentManager();
         //manager.beginTransaction().add(R.id.mainActivity, firstFragment).commit();
     }
